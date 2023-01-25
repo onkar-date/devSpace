@@ -1,0 +1,27 @@
+$custom-primary: #157c9e;
+
+ul {
+    list-style-type: none;
+    li {
+        list-style: none;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        a {
+            all: unset;
+            padding: 1.5rem;
+            display: block;
+        }
+        a.active {
+            background-color: $custom-primary;
+        }
+    }
+}
+
+.header {
+    padding: 1.5rem;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

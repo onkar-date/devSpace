@@ -1,0 +1,7 @@
+$custom-primary: #157c9e;
+$custom-secondary: #1f9bc6;
+
+$primary: $custom-primary;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "./styles/all.scss";
